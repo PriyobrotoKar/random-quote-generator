@@ -65,6 +65,7 @@ twitterBtn.addEventListener("click", () => {
 });
 
 exportBtn.addEventListener("click", () => {
+  //add loading spinner
   htmlToImage
     .toPng(quoteContainer)
     .then((dataUrl) => {

@@ -1,7 +1,7 @@
 # Random Quote Generator
 This is a simple random quote generator that displays a random quote from the [ API ](https://api.freeapi.app/api/v1/public/quotes/quote/random). New quotes are displayed on the screen when the user clicks the "Next Quote" button. The background color of the page also changes each time a new quote is displayed.
 
-Deployed site: [Random Quote Generator](https://random-quote-generator-ten.vercel.app/)
+Deployed at [priyobrotokar.github.io/random-quote-generator](https://priyobrotokar.github.io/random-quote-generator)
 
 ### Features
 - [x] Fetch a random quote from the API.
@@ -13,3 +13,4 @@ Deployed site: [Random Quote Generator](https://random-quote-generator-ten.verce
 - [x] Implement a "Export" button that saves the quotes as an image to the users' device.
 
 ### Screenshots
+![Screenshot 1](https://raw.githubusercontent.com/PriyobrotoKar/random-quote-generator/refs/heads/main/public/screenshot.jpeg)
