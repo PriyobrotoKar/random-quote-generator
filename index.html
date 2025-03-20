@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.31.0/dist/tabler-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Quote Generator</title>
+  </head>
+  <body>
+    <main>
+      <div id="quote">
+        <div class="background">
+          <img
+            id="quote-img"
+            src="https://picsum.photos/800/600"
+            alt=""
+            width="800"
+            height="600"
+          />
+        </div>
+        <img
+          id="quote-mark"
+          src="./public/quotes.svg"
+          alt="Quote Mark"
+          width="80"
+          height="80"
+        />
+        <p id="quote-text">...</p>
+        <p id="author">...</p>
+      </div>
+
+      <div id="btn-group">
+        <button id="next-quote-btn" class="primary-btn">Next Quote</button>
+        <button id="copy-btn" class="secondary-btn">
+          <i class="ti ti-copy"></i> Copy
+        </button>
+        <button id="tweet-btn" class="secondary-btn">
+          <i class="ti ti-brand-x"></i>
+          Share
+        </button>
+        <button id="export-btn" class="secondary-btn">
+          <i class="ti ti-download"></i>
+          Export
+        </button>
+      </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/html-to-image@1.11.13/dist/html-to-image.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
